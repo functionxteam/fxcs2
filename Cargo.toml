@@ -2,7 +2,7 @@
 name = "functionx"
 version = "0.1.8"
 authors = ["FuncionX Team"]
-edition = "2025"
+edition = "2021"
 license = "FXLCS"
 
 [dependencies]
