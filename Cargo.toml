@@ -1,9 +1,9 @@
 [package]
 name = "functionx"
-version = "0.1.2"
-authors = ["FunctionX Team"]
-edition = "2021"
-license = "Commercial"
+version = "0.1.8"
+authors = ["FuncionX Team"]
+edition = "2025"
+license = "FXLCS"
 
 [dependencies]
 lazy_static = "1.5.0"
@@ -33,6 +33,12 @@ indexmap = "2.7.0"
 open = "5.3.1"
 toml = "0.8.19"
 semver = "1.0.24"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1.0", features = ["full"] }
+oauth2 = "4.4"
+url = "2.4"
+serde_urlencoded = "0.7"
+webbrowser = "0.8"
 
 [build-dependencies]
 winres = "0.1.12"
